@@ -1,7 +1,7 @@
 import React, { useMemo } from 'react';
 
 export default function Stars({ count = 100 }) {
-  const frames = ["#fff8ceff", "#fffdefff", "#ffffffff"];
+  const frames = ["#ffffffff", "#fffbe0ff", "#fdffc1ff"];
   const size = "1px";
 
   // Generate stars (Random upon refresh)
