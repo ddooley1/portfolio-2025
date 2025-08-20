@@ -3,8 +3,8 @@ import { animated } from "@react-spring/web";
 import styles from "./styles.module.css";
 
 export default function Gradient() {
-  const from = "#462135ff";
-  const mid = "#5d4b72ff";
+  const from = "#2e2a2eff";
+  const mid = "#35313fff";
   const to = "#615459ff";
   const angle = -180;
 
