@@ -3,9 +3,10 @@ import { animated } from "@react-spring/web";
 import styles from "./styles.module.css";
 
 export default function Gradient() {
-  const from = "#2e2a2eff";
-  const mid = "#35313fff";
-  const to = "#615459ff";
+  // TODO: Implement some variation to the gradients, maybe change them based on time of day. that would be cool
+  const from = "#443e44ff";
+  const mid = "#5a536bff";
+  const to = "#9b7a87ff";
   const angle = -180;
 
   const gradient = `linear-gradient(${angle}deg, ${from}, ${mid}, ${to})`;
