@@ -36,7 +36,7 @@ function App() {
             overflow: "auto",
             height: "70vh",
 
-            bgcolor: "rgba(255, 255, 255, 0.18)",
+            bgcolor: "rgba(255, 255, 255, 0.1)",
             backdropFilter: "blur(1.5px)",
             boxShadow: "-5px 8px 18px black",
             borderRadius: "8px",
